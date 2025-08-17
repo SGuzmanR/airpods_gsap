@@ -46,7 +46,7 @@ const TOTAL_FRAMES = 65;
 
 const createURL = (frame) => {
   const id = frame.toString().padStart(4, "0");
-  return `/public/airpods/${id}.png`;
+  return `/airpods/${id}.png`;
 };
 
 const images = Array.from({ length: TOTAL_FRAMES }, (_, i) => {
